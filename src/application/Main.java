@@ -9,12 +9,11 @@ import java.net.URL;
 
 import javafx.fxml.FXMLLoader;
 
-
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(new URL("file:///D:/codebase/eclipse/billing-system/src/data/template.fxml"));
+		loader.setLocation(new URL("file:./src/data/template.fxml"));
 
 		VBox root = loader.<VBox>load();
 
