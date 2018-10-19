@@ -1,4 +1,6 @@
 ### Java ###
+# Binaries Folder
+bin/
 # Compiled class file
 *.class
 
