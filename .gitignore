@@ -1,10 +1,13 @@
 ### Java ###
+
 # Binaries Folder
 bin/
-# Compiled class file
+out/
+
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # Package Files #
@@ -15,3 +18,8 @@ bin/
 *.zip
 *.tar.gz
 *.rar
+
+#IDE stuff
+.idea/
+.project
+*.iml
