@@ -7,7 +7,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TableColumn;
-import javafx.scene.conrtol.cell.PropertyVAlueFactory;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 import javafx.collections.ObservableList;
 import javafx.collections.FXCollections;
@@ -46,8 +46,6 @@ public class Controller {
     ArrayList<Item> itemList = new ArrayList<Item>();
 
     final ObservableList<Item> l = FXCollections.observableList(itemList);
-    itemsTable.setItems(l);
-    nameColumn.setProperty(Item.name);
 
 	@FXML
 	protected void handleEnterItem(ActionEvent event) {
